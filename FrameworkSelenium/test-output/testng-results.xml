@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-28T17:34:14 IST" name="Suite" finished-at="2023-11-28T17:35:06 IST" duration-ms="51341">
+    <groups>
+    </groups>
+    <test started-at="2023-11-28T17:34:14 IST" name="Test" finished-at="2023-11-28T17:35:06 IST" duration-ms="51341">
+      <class name="test.HomeScreen">
+        <test-method is-config="true" signature="initiaizeBrowser()[pri:0, instance:test.HomeScreen@7d4f9aae]" started-at="2023-11-28T17:34:14 IST" name="initiaizeBrowser" finished-at="2023-11-28T17:34:37 IST" duration-ms="22712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiaizeBrowser -->
+        <test-method signature="verifySitename()[pri:0, instance:test.HomeScreen@7d4f9aae]" started-at="2023-11-28T17:34:37 IST" name="verifySitename" finished-at="2023-11-28T17:34:37 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySitename -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.HomeScreen@7d4f9aae]" started-at="2023-11-28T17:34:37 IST" name="closeBrowser" finished-at="2023-11-28T17:34:38 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initiaizeBrowser()[pri:0, instance:test.HomeScreen@7d4f9aae]" started-at="2023-11-28T17:34:38 IST" name="initiaizeBrowser" finished-at="2023-11-28T17:35:05 IST" duration-ms="27444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiaizeBrowser -->
+        <test-method signature="verifyTitle()[pri:0, instance:test.HomeScreen@7d4f9aae]" started-at="2023-11-28T17:35:05 IST" name="verifyTitle" finished-at="2023-11-28T17:35:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.HomeScreen@7d4f9aae]" started-at="2023-11-28T17:35:05 IST" name="closeBrowser" finished-at="2023-11-28T17:35:06 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.HomeScreen -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
