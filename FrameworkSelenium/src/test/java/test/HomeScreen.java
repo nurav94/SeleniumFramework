@@ -2,6 +2,7 @@ package test;
 
 
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -30,7 +31,7 @@ public class HomeScreen extends BaseClass {
 	@Test
 	public static void verifySitename() {
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(driver.getCurrentUrl(),"https://demoqa.com/");		
+		Assert.assertEquals(driver.getCurrentUrl(),"https://demoqa/");		
 	}
 	
 	@Test
